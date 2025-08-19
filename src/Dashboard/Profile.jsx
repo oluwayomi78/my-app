@@ -20,7 +20,7 @@ const Profile = () => {
                     },
                 });
                 setUser(res.data);
-                console.log(res.data);
+                // console.log(res.data);
                 localStorage.setItem('user', JSON.stringify(res.data));
             } catch (err) {
                 // handle error
