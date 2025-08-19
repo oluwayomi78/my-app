@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(135deg, #f8f9fa, #eaeaea);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.btn-gold {
+    background-color: #d4af37;
+    border: none;
+    color: #000;
+}
+
+.btn-gold:hover {
+    background-color: #c29e2e;
+}

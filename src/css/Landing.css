@@ -1,0 +1,9 @@
+a {
+    text-decoration: none;
+}
+.text-blue-900{
+    color:rgb(16, 16, 155);
+}
+.rounded-full{
+    border-radius: 25px;
+}

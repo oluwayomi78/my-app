@@ -1,0 +1,90 @@
+.safety-cta-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+
+.highlight-box {
+    background-color: #e2f0d9;
+    border: 2px dashed #9bc53d;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 700px; 
+    margin: 0 auto 60px auto; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-box-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #4a6c4c;
+    margin-bottom: 15px;
+}
+
+.highlight-box-text {
+    font-size: 1.15rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+
+.main-cta-container {
+    margin-top: 40px;
+}
+
+.main-cta-button {
+    font-size: 1.4rem; 
+    padding: 18px 45px; 
+    border-radius: 50px; 
+    font-weight: 700;
+    background-color: #007bff; 
+    border-color: #007bff;
+    color: #fff;
+    text-decoration: none; 
+    transition: all 0.3s ease-in-out;
+    display: inline-block; 
+    margin-bottom: 20px; 
+}
+
+.main-cta-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 25px rgba(0, 123, 255, 0.4); 
+}
+
+.main-cta-description {
+    font-size: 1rem;
+    color: #777;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+
+@media (max-width: 768px) {
+    .highlight-box {
+        padding: 25px;
+        margin-bottom: 40px;
+    }
+    .highlight-box-title {
+        font-size: 1.5rem;
+    }
+    .highlight-box-text {
+        font-size: 1rem;
+    }
+    .main-cta-button {
+        font-size: 1.2rem;
+        padding: 15px 30px;
+        width: 90%; 
+        max-width: 400px; 
+    }
+    .main-cta-description {
+        font-size: 0.9rem;
+    }
+    .safety-cta-section {
+        padding: 60px 0;
+    }
+}
