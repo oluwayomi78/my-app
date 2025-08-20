@@ -19,7 +19,7 @@ const Loan = () => {
         setSuccess(null);
         try {
             const token = localStorage.getItem('token');
-            const res = await axios.post('http://localhost:2580/loan', {
+            const res = await axios.post('https://server-mi7c.onrender.com/loan', {
                 amount: Number(amount),
                 duration: Number(duration),
             }, {
